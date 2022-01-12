@@ -1,0 +1,124 @@
+/*
+Theme Name: Sussna
+Theme URI: https://alyx.at/sussna
+Template: plane-wpcom
+Author: alyx
+Author URI: https://alyx.at
+Description: Sussna is a modified version of Plane, a versatile blog theme, featuring classic, two-column layout and clean, modern design.
+Version: 1.0.1
+
+*/
+
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background: #111316 !important;
+    }
+
+    a {
+        color: #8FBCD3;
+    }
+
+    body,
+    button,
+    input,
+    select,
+    textarea {
+        background: #fff;
+        color: #F2F9FF;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #fff;
+    }
+
+    pre {
+        background: #192535;
+    }
+
+    .site-main .comment-navigation a,
+    .site-main .paging-navigation a,
+    .site-main .post-navigation a {
+        background: #192535;
+    }
+
+    .site-main .post-navigation {
+        background: #192535;
+    }
+
+    .site-main .post-navigation .meta-nav {
+        color: #D9E0E6;
+    }
+
+    .site-main .post-navigation a {
+        color: #8FBCD3;
+    }
+
+    .site-main .post-navigation a:hover,
+    .site-main .post-navigation a:focus {
+        background: #192535;
+    }
+
+    .page-links a {
+        color: #D9E0E6;
+    }
+
+    #secondary .widget {
+        background: #192535;
+    }
+
+    .widget-title a {
+        color: #D9E0E6;
+    }
+
+    .site-top,
+    .site-footer {
+        background: #192535;
+    }
+
+    .site-header {
+        background: #323e4e;
+    }
+
+    .entry-title a {
+        color: #D9E0E6;
+    }
+
+    .entry-meta {
+        color: #8FBCD3;
+    }
+
+    .entry-meta a:hover,
+    .entry-meta a:focus {
+        color: #D9E0E6;
+    }
+
+    .more-link a {
+        background: #192535;
+    }
+
+    .comment-meta {
+        color: #8FBCD3;
+    }
+
+    .wp-caption {
+        background: #192535;
+    }
+
+    /* Jetpack */
+    #content .slideshow-window, .jetpack-slideshow {
+        background: #192535;
+    }
+
+    /* Media queries */
+    @media only screen and (min-width: 768px) {
+        .nav-menu ul ul li.focus>a {
+            background-color: #192535;
+        }
+    }
+}
