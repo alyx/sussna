@@ -115,6 +115,11 @@ Version: 1.0.1
         background: #192535;
     }
 
+    /* Enlighter */
+    .EnlighterJSRAW {
+        background: chartreuse !important;
+    }
+
     /* Media queries */
     @media only screen and (min-width: 768px) {
         .nav-menu ul ul li.focus>a {
